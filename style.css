@@ -1,1 +1,28 @@
-/* Start coding here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: lightgrey;
+  height: 100vh;
+  padding: 50px;
+}
+
+.box-1 {
+  height: 25%;
+  background-color: orange;
+}
+.box-2 {
+  height: 25%;
+  background-color: khaki;
+}
+
+.box-3 {
+  height: 50%;
+  background-color: cornflowerblue;
+}
+
+
+/* jzdbfozjfbijfbvojnvoskndvdkwojnoj;sjd v */
