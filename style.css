@@ -1,1 +1,48 @@
-/* Start coding here */
+/* รีเซ็ต margin และ padding พื้นฐานเพื่อให้ควบคุมการแสดงผลได้เต็มที่ */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+}
+
+body {
+    background-color: lightgray;
+    font-family: sans-serif;
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+.container {
+    width: 100%; /* ทำให้ container กว้างเต็ม body */
+    height: 100%; /* ทำให้ container สูงเต็ม body (ถ้า body สูงเต็ม viewport) */
+    display: flex; /* ใช้ flexbox เพื่อจัดเรียง box 1-3 ในแนวตั้ง */
+    flex-direction: column; /* จัดเรียงลูกๆ (box) ในแนวตั้ง */
+    /* align-items: stretch; เป็นค่าเริ่มต้นของ flex items ใน cross-axis (แนวนอน) ถ้าไม่ได้กำหนด width ให้ box ลูก */
+}
+
+/* กำหนดสไตล์พื้นฐานของ box ทุกกล่อง */
+.box-1,
+.box-2,
+.box-3 {
+    padding: 0px; /* เพิ่ม padding เพื่อให้ข้อความ Box N ไม่ติดขอบ */
+    color: black; /* สีข้อความ */
+    font-size: 1.2em; /* ขนาดข้อความ */
+    font-weight: bold; /* ข้อความเป็นตัวหนา */
+}
+
+/* กำหนดสีและความสูงของแต่ละกล่อง */
+.box-1 {
+    background-color: orange; /* สีส้ม */
+    height: 30%; /* สูง 30% ของ container */
+}
+
+.box-2 {
+    background-color: #ffffe0; /* สีเหลืองอ่อน (คล้ายกับ khaki/lemon chiffon) */
+    height: 20%; /* สูง 20% ของ container */
+}
+
+.box-3 {
+    background-color: #6495ed; /* สีฟ้า (cornflowerblue) */
+    height: 50%; /* สูง 50% ของ container */
+}
