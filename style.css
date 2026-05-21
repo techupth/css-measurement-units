@@ -1,1 +1,29 @@
 /* Start coding here */
+/* style.css */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    background-color: lightgrey;
+    height: 100vh;          /* สูงเต็ม Viewport */
+    padding: 50px;          /* padding รอบด้าน */
+    box-sizing: border-box; /* รวม padding ในการคำนวณ */
+  }
+  
+  .box-1 {
+    background-color: orange;
+    height: 25%; /* 1/4 ของ container */
+  }
+  
+  .box-2 {
+    background-color: khaki;
+    height: 25%; /* 1/4 ของ container */
+  }
+  
+  .box-3 {
+    background-color: cornflowerblue;
+    height: 50%; /* 1/2 ของ container */
+  }
+  
